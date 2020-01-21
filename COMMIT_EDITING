@@ -1,0 +1,73 @@
+Last login: Wed Jan 22 01:31:32 on ttys000
+hoshikawa:~ hoshikawayuuki$ cd /Users/hoshikawayuuki/Documents/udemy_code/git_tutorial 
+hoshikawa:git_tutorial hoshikawayuuki$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	COMMIT_EDITING
+
+hoshikawa:git_tutorial hoshikawayuuki$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	COMMIT_EDITING
+
+hoshikawa:git_tutorial hoshikawayuuki$ git add index.html
+hoshikawa:git_tutorial hoshikawayuuki$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	COMMIT_EDITING
+
+hoshikawa:git_tutorial hoshikawayuuki$ git commit
+hint: Waiting for your editor to close the file... 
+git status commandを追記
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#        
+# On branch master
+#
+# Initial commit
+#            
+# Changes to be committed:
+#       new file:   index.html
+#
+# Untracked files: 
+#       COMMIT_EDITING
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT -- W10: Warning: Changing a readonly file
